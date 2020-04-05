@@ -1,0 +1,38 @@
+body{
+    width: 860px;
+    color: #000;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+table{
+    width: 760px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption{
+    width: 430px;
+    height: 40px;
+    font-size: 18px;
+}
+
+thead{
+    background-color: #d0d0d0;
+}
+
+tfoot{
+    background-color: #c71616;
+    color: #fff;
+}
+
+tr:nth-child(2n){
+    background-color: #d0d0d0;
+}
+
+td, th{
+    border-right: 2px solid #999;
+}
