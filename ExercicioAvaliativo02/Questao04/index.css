@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: left;
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: left;
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+}
