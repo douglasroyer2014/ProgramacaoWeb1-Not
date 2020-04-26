@@ -16,9 +16,20 @@ h1{
     font-size: 42px;
 }
 
+label{
+    font-size: 32px;
+    color: #456;
+}
+
 input{
     padding: 5px;
     font-size: 20px;
+}
+
+input:hover{
+    border: solid 5px #00f;
+    background-color: #000;
+    color: #fff;
 }
 
 .textInput{
@@ -28,3 +39,67 @@ input{
 #bottonInput{
     width: 150px;
 }
+
+  @media only screen and (max-width: 1024px) {
+    body {
+        background-color: #456;
+    }
+
+    label{
+        font-size: 30px;
+        color: #ccc;
+        margin-left: 100px;
+    }
+
+    input{
+        font-size: 25px;
+    }
+
+    .textInput{
+        margin-bottom: 20px;
+        padding: 5px;
+        width: 500px;
+        margin: 0 100px 20px 0;
+    }
+
+    input:hover{
+        border: solid 5px #0f0;
+    }
+
+    #bottonInput{
+        width: 200px;
+        height: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: #ccc;
+    }
+
+    label{
+        font-size: 24px;
+        color: #000;
+        margin-left: 100px;
+    }
+
+    input{
+        margin-bottom: 20px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .textInput{
+        padding: 0;
+        margin: 0 100px 5px 0;
+        width: 300px;
+    }
+
+    input:hover{
+        border: solid 5px #f00;
+    }
+
+    #bottonInput{
+        width: 120px;
+    }
+  }

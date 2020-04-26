@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fatorial.js"></script>
+</head>
+<body>
+    <form id="myForm" method="POST">
+        <div>
+            <label for="number">Numero:</label>
+            <input type="number" id="numero" />
+        </div>
+        <div class="button">
+            <button id="bt" type="submit" onclick="capturar()">Calcular fatorial</button>
+        </div>       
+    </form>   
+    <div>
+        <label for="result">Resultado:</label>
+        <p id="valorDigitado"></p>
+    </div> 
+    <script>mostrarResultado()</script>
+</body>
+</html>
