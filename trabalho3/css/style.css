@@ -1,0 +1,68 @@
+table{
+    width: 1200px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #ccc;
+    border-style: solid;
+    border-color: #000;
+}
+
+table thead tr{
+    background-color: #abb;
+}
+
+td, th{
+    border-left: solid;
+}
+
+table td {
+    text-align: center;
+    height: 100%;
+}
+
+img{
+    width: 5%;
+    height: 5%;
+}
+
+a{
+    margin : 5px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #00f;
+    color: #fff;
+    border-color: #00f;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #00a;
+    border-color: #00a;
+}
+
+input{
+    width: 300px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+form{
+    border: 1px solid #000;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 50px;
+}

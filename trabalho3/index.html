@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/main.js"></script>
+    <title>Trabalho 3</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+
+<body>
+    <main>
+        <section id="form">
+            <form>
+                <h2 id="titulo">Adicionando novo empregado</h2>
+                <label>Nome:</label>
+                <input placeholder="Nome" type="text" name="nome" id="nome"><br>
+                <label>Salário:</label>
+                <input type="text" name="salario" placeholder="0,00" id="salario"><br>
+                <label>Idade:</label>
+                <input type="number" name="idade" placeholder="0" id="idade"><br>
+                <label>Avatar</label>
+                <input type="text" placeholder="http://url.do.avatar" name="avatar" id="avatar"><br>
+                <button id="salvar" onclick="salvarEmployee()">Salvar</button>
+                <button id="cancelar" onclick="cancelarCadastro()">Cancelar</button>
+            </form>
+        </section>
+        <section>
+            <table id='tabela'>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Salário</th>
+                        <th>Idade</th>
+                        <th>Avatar</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script>limparTabela()</script>
+</body>
+
+</html>
