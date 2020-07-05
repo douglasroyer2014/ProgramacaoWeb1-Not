@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='script/main.js'></script>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Lista de produto</h2>
+            <button onclick="listaProduto()">Listar os produtos</button>
+
+            <h2>Cadastrar produto</h2>
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+            <label>Tamanho:</label>
+            <input type="text" name="tamanho" id="tamanho" placeholder="Tamanho"><br>
+            <input type="radio" name="sexo" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <label>Cor do produto:</label>
+            <input type="text" name="cor" id="cor" placeholder="Cor"><br>
+            <label>Valor:</label>
+            <input type="number" name="valor" id="valor" placeholder="Valor"><br>
+            <button onclick="cadastrarProduto()">Cadastrar</button>
+            <button onclick="limparInputProduto()">Cancenlar</button>
+        </section>
+        <br><hr>
+        <section>
+            <h2>Lista de cliente</h2>
+            <button onclick="listaCliente()">Listar os clientes</button>
+
+            <h2>Gerenciamento cliente</h2>
+            <label>Id:</label>
+            <input type="text" name="id" id="id" placeholder="Id"><br>
+            <label>Nome: </label>
+            <input type="text" name="nomeCliente" id="nomeCliente" placeholder="Nome cliente"><br>
+            <label>Data:</label>
+            <input type="text" name="dataNasc" id="dataNasc" placeholder="Data de nascimento"><br>
+            <label>CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="CPF"><br>
+            <input type="radio" name="sexoCliente" id="clienteMasculino" value="clienteMasculino">
+            <label for="clienteMasculino">Masculino</label>
+            <input type="radio" name="sexoCliente" id="clienteFeminino" value="clienteFeminino">
+            <label for="clienteFeminino">Feminino</label><br>
+            <button onclick="cadastrarCliente()">Cadastrar</button>
+            <button onclick="editarCliente()">Editar</button>
+            <button onclick="excluirCliente()">Excluir</button>
+            <button onclick="limparCamposCliente()">Cancelar</button>
+
+
+        </section>
+
+    </main>
+</body>
+</html>
