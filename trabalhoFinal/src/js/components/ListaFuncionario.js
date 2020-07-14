@@ -25,7 +25,7 @@ const ListaFuncionario = function (props) {
                             <td>{element.salario}</td>
                             <td>{element.idade}</td>
                             <td>{element.avatar}</td>
-                            <a href="#" onClick={(e) => this.props.editarAluno(e, aluno)}>Editar</a> | <a href="#" onClick={(e) => this.props.excluirAluno(e, aluno)}>Excluir</a>
+                            <td><a href="#" onClick={(e) => props.editarFuncionario(e, element)}>Editar</a> | <a href="#" onClick={(e) => props.excluirFuncionario(e, element.id)}>Excluir</a></td>
                         </tr>)
                 })}
             </tbody>

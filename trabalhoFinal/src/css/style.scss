@@ -4,6 +4,15 @@
 }
 
 table{
-    width: 60%;
+    width: 100%;
     text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 60px;
+}
+
+p{
+    margin: 10px;
 }

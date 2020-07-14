@@ -9,6 +9,8 @@ const FormFuncionario = function(props){
     const [idade, setIdade] = useState(0);
     const [avatar, setAvatar] = useState('');
 
+    const id = '';
+
     const handleSubmit = function(e){
         e.preventDefault();
         const funcionario = new Funcionario(contador, nome, salario, idade, avatar);
@@ -25,15 +27,15 @@ const FormFuncionario = function(props){
             <h2>Cadastro de funcionario</h2>
             <p>
                 <label htmlFor="nome">Nome:</label>
-                <input name="nome" value={nome} type= "text" onChange={(e) => setNome(e.target.value)} />
+                <input id="nome" name="nome" value={nome} type= "text" onChange={(e) => setNome(e.target.value)} />
             </p>
             <p>
                 <label htmlFor="salario">Salario:</label>
-                <input name="salario" value={salario} type= "number" onChange={(e) => setSalario(e.target.value)} />
+                <input id="salario" name="salario" value={salario} type= "number" onChange={(e) => setSalario(e.target.value)} />
             </p>
             <p>
                 <label htmlFor="idade">Idade:</label>
-                <input name="idade" value={idade} type= "number" onChange={(e) => setIdade(e.target.value)} />
+                <input id="idade" name="idade" value={idade} type= "number" onChange={(e) => setIdade(e.target.value)} />
             </p>
             <p>
                 <label htmlFor="avatar">Avatar:</label>
